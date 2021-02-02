@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./App.css";
-import { FaRegHourglass } from "react-icons/fa";
+import { MdDirectionsBike } from "react-icons/md";
 
 export default function App() {
   const [timerDays, setTimerDays] = useState("00");
@@ -46,11 +46,11 @@ export default function App() {
       <section className="timer-container">
         <section className="timer">
           <div>
-            <FaRegHourglass className="timer-icon"/>
+            <MdDirectionsBike className="timer-icon" />
           </div>
           <h2>Countdown to Peloton</h2>
           <p>only a few more days until your peloton arrives!</p>
-         
+
           <p className="content">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Reprehenderit molestiae cum libero atque ut voluptate qui
