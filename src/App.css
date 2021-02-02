@@ -12,7 +12,7 @@ body {
 }
 
 .timer-container {
-  background-image: url('./background.jpg');
+  background-image: url('https://images.unsplash.com/photo-1583504103542-148f90c669fe');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

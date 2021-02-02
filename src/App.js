@@ -11,7 +11,7 @@ export default function App() {
   let interval = useRef();
 
   const startTimer = () => {
-    const countDownDate = new Date("March 31, 2021 00:00:00").getTime();
+    const countDownDate = new Date("March 23, 2021 00:00:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -48,8 +48,8 @@ export default function App() {
           <div>
             <FaRegHourglass className="timer-icon"/>
           </div>
-          <h2>Countdown Timer</h2>
-          <p>Countdown to a really special date!</p>
+          <h2>Countdown to Peloton</h2>
+          <p>only a few more days until your peloton arrives!</p>
          
           <p className="content">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
