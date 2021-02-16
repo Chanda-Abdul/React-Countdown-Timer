@@ -48,14 +48,17 @@ export default function App() {
           <div>
             <MdDirectionsBike className="timer-icon" />
           </div>
-          <h2>Countdown to Peloton</h2>
-          <p>only a few more days until your peloton arrives!</p>
+          <h2>Countdown to Peloton Delivery</h2>
+          <p>only a few more days until your peloton Bike+ arrives!</p>
 
           <p className="content">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Reprehenderit molestiae cum libero atque ut voluptate qui
-            consectetur aliquid incidunt voluptatem quos, dolore, non commodi
-            quaerat aliquam eligendi, quisquam totam blanditiis.
+            Get pumped, you'll be able to clip in to your very own peloton Bike+
+            very soon!
+          </p>
+
+          <p className="content">
+            It wont be long now, in a few days you will be able to take your
+            first ride and make your way to the top of the Leaderboard.
           </p>
 
           <div className="timer-box">
