@@ -11,7 +11,8 @@ export default function App() {
   let interval = useRef();
 
   const startTimer = () => {
-    const countDownDate = new Date("March 23, 2021 10:00:00").getTime();
+    const countDownDate = new Date("December 31, 2021 10:00:00").getTime();
+    // countDownDate = countDownDate.setDate(69)
 
     interval = setInterval(() => {
       const now = new Date().getTime();

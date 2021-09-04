@@ -1,7 +1,7 @@
 # Peloton Countdown Timer
 
 ## Programmer
-Chanda Hubbard
+Chanda Abdul
 
 ## Summary
 
